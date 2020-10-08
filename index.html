@@ -37,40 +37,87 @@
 </section>
 
 <section class="form">
-    <div>
+    <h3>Заполни поля для нахождния дешёвых авиабилетов</h3>
+    <p>Лучший способ купить авиабилеты дешево</p>
+    <hr>
+    <div class="form-head">
         <form>
             <div class="From">
+                <h4 class="forFrom">Откуда</h4>
                 <input type="text" id="otkyda" placeholder="Откуда" >
-                <label for="otkyda">Откуда</label>
             </div>
 
             <div class="For">
+                <h4 class="forFrom">Куда</h4>
                 <input type="text" id="kyda" placeholder="Куда" >
-                <label for="kyda">Куда</label>
             </div>
 
-            <div class="Data">
                 <div class="Data-For">
-                    <input type="text" id="data-for" placeholder="Туда" >
-                    <label for="data-for">Дата отправления</label>
+                    <h4 class="forFrom">Дата отправления</h4>
+                    <input type="date" id="data-for" placeholder="Туда" >
                 </div>
 
                 <div class="Data-From">
-                    <input type="text" id="data-from" placeholder="Обратно" >
-                    <label for="data-from">Дата возвращения</label>
+                    <h4 class="forFrom">Дата возвращения</h4>
+                    <input type="date" id="data-from" placeholder="Обратно" >
                 </div>
+
+            <div>
+                <h4 class="forFrom">Кол-во пассажиров</h4>
+                <input type="number" id="pass" placeholder="Кол-во пассаж..." min="1" max="8">
             </div>
 
             <div>
-
-            </div>
-
-            <div>
-
+                <input class="btn" type="button" value="Найти билеты">
             </div>
 
         </form>
     </div>
 </section>
+
+<section class="shares">
+    <h3>Акции</h3>
+    <p>Наша компания предоставляет нашим клиентам ряд акций:</p>
+    <ul class="grid">
+        <li class="promotion">
+            <h4>Returning and Changing Your Tickets</h4>
+            <img src="image/promotion/promotion1.jpg">
+            <p>The pandemic has changed many travelers’ plans, but we know that it will not last forever.
+                Once all of this is over, we will continue exploring this world the way we used to.
+                Special rules that have been developed for this challenging situation will help you cancel your trip
+                or postpone it until later.</p>
+        </li>
+        <li class="promotion">
+            <h4>Best offers</h4>
+            <img src="image/promotion/promotion2.jpg">
+            <p>To see again the streets that witnessed so much. To hug your beloved ones and look back to see
+                what you’ve come through. And to think of new dreams that will be so special!</p>
+        </li>
+        <li class="promotion">
+            <h4>See you more often</h4>
+            <img src="image/promotion/promotion3.jpg">
+            <p>Since the beginning of January, we have been expanding the geography of flights in Russia so that you can
+                see your loved ones more often. Choose our company to fly to where you are always expected.</p>
+        </li>
+        <li class="promotion">
+            <h4>Everything is on again</h4>
+            <img src="image/promotion/promotion4.jpg">
+            <p>From August 10, we will resume flights to Turkey. Flights from Moscow to Antalya will be operated twice
+                a day daily, and flights on the Moscow-Dalaman route will be operated three to seven times a week.</p>
+        </li>
+    </ul>
+</section>
+
+<section class="FormEmail">
+    <div>
+    <h4 class="forFrom">Email</h4>
+    <input type="email" placeholder="Email">
+    <input class="btn" type="button" value="Подписаться">
+    </div>
+</section>
+
+<footer>
+
+</footer>
 </body>
 </html>

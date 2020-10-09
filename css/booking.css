@@ -1,0 +1,60 @@
+*{
+
+}
+i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.bookingPlace{
+    display: inline-block;
+    padding-top: 0;
+}
+.info{
+    padding: 0 300px;
+    margin-top: 35%;
+    float: left;
+}
+ul{
+    display: flex;
+    padding: 25px;
+
+}
+ul div{
+    padding: 7px;
+}
+.place{
+    display: flex;
+    border: solid;
+    border-radius: 70% 70% 20% 20%;
+}
+.sectionOne{
+    margin: 350px 0 200px 0 ;
+}
+.sectionTwo{
+    margin: 350px 0 200px 0;
+}
+a{
+    color: black;
+}
+
+
+.test {
+
+    color: black;
+}
+input {
+    display: none;
+}
+input:checked + label > div i {
+    color: #1aff00;
+}
+input:hover + label > div i {
+    font-size: 40px;
+
+}
+label{
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}

@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffe59f07-ce18-4d0f-9253-f06cac75ff58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/booking.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/clouds/cloud_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -37,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,7 +57,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Login_v5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wordpress-5.5.1-ru_RU" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\OpenServer\domains\modul1\image\clouds" />
       <recent name="C:\Program Files\OpenServer\domains\modul1\image\promotion" />
       <recent name="C:\Program Files\OpenServer\domains\modul1\image" />
       <recent name="C:\Program Files\OpenServer\modul1\image" />
@@ -92,6 +95,8 @@
       <workItem from="1602064340487" duration="300000" />
       <workItem from="1602065007460" duration="15581000" />
       <workItem from="1602153192232" duration="10967000" />
+      <workItem from="1602168639042" duration="3584000" />
+      <workItem from="1602236911412" duration="14572000" />
     </task>
     <servers />
   </component>
@@ -108,20 +113,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="344" key="#Notifications" timestamp="1602158902846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1602158902846" />
+    <state x="757" y="309" key="#Web_Browsers" timestamp="1602252916734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="757" y="309" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1602252916734" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602067330701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602067330701" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1602168601034">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1602255331486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602168601034" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602255331486" />
     <state x="838" y="418" key="Github.ShareDialog" timestamp="1602076727328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -134,13 +144,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602076320863" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1602159647870">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1602240473595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602159647870" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602076277646">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602240473595" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602171281652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602076277646" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602171281652" />
   </component>
 </project>

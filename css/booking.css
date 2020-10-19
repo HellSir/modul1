@@ -1,60 +1,152 @@
 *{
+    margin: 0;
+    padding: 0;
+    transition: 0.7s;
 
 }
-i{
-    font-size: 30px;
+
+header{
+    position: absolute;
+    align-items: center;
+    margin: 15px 100px;
+}
+header nav{
+    color: white;
+    font-size: 24px;
+    height: 70px;
+    display: flex;
+}
+header nav .nav1{
+    background-color: #00D8FF;
+    display: flex;
+    border-radius: 10px;
+}
+hr{
+    padding: 0;
+    margin: 0;
+}
+header nav .nav1 div{
+    padding-top: 20px;
+    margin: 0 250px 0 60px;
+}
+header nav .nav1 div:last-child{
+    margin-right: 150px;
+}
+
+
+header nav a:hover{
+
+}
+.button{
+    margin: 0 0 0 25px;
+    background: white;
+    border:solid #00D8FF;
+    padding: 15px 25px;
+    color: #00D8FF;
     cursor: pointer;
-}
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.7s;
 
-.bookingPlace{
-    display: inline-block;
-    padding-top: 0;
 }
-.info{
-    padding: 0 300px;
-    margin-top: 35%;
-    float: left;
+.button:hover{
+    background-color: #00D8FF;
+    color: white;
+    transition: 0.7s;
 }
-ul{
+.btn{
+    margin-left: 70px;
     display: flex;
-    padding: 25px;
+}
+h3{
+    margin-bottom: 25px;
+    color: #494C4D;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Handlle',sans-serif;
+}
 
+
+section{
+    margin-left: 150px;
+    align-items: center;
+    padding: 100px 100px;
 }
-ul div{
-    padding: 7px;
+section h3{
+    padding-bottom: 25px;
+    padding-top: -100px;
 }
-.place{
+.required{
+    padding-right:250px;
+    padding-left:250px;
+    align-items: center;
+}
+.required .head{
+    padding: 50px;
+    margin-right: 520px;
+    box-shadow: 0 0 10px rgb(0,0,0);
+}
+.input{
     display: flex;
-    border: solid;
-    border-radius: 70% 70% 20% 20%;
 }
-.sectionOne{
-    margin: 350px 0 200px 0 ;
+li{
+    list-style: none;
 }
-.sectionTwo{
-    margin: 350px 0 200px 0;
+li input{
+    margin: 25px 110px 25px 0;
+    width: 350px;
+    height: 50px;
 }
-a{
-    color: black;
+input, label{
+    font-weight: 500;
+
+    color: #494C4D;
+    font-family: 'Handlle',cursive;
+    font-size: 20px;
+    display: block;
+}
+.nav2{
+    margin-top: 30px;
+}
+.nav3{
+    background: white;
+    border:solid #00D8FF;
+    padding: 15px 240px 15px 50px;
+    color: #00D8FF;
+    text-decoration: none;
 }
 
-
-.test {
-
-    color: black;
+.nothing{
+    margin-top: 75px;
+    margin-bottom: 50px;
 }
-input {
-    display: none;
-}
-input:checked + label > div i {
-    color: #1aff00;
-}
-input:hover + label > div i {
-    font-size: 40px;
+.nothing input::placeholder{
+    color: #00D8FF;
 
 }
-label{
-    color: black;
-    font-size: 26px;
-    font-weight: bold;
+.nothing input{
+    color: #00D8FF;
+    border-color: #00D8FF;
+}
+.nothing input:focus{
+    border-color: #00D8FF;
+    background-color: #00D8FF;
+    color: #FFF;
+}
+.button-2{
+    margin: 0 0 0 75px;
+    background: #00D8FF;
+    padding: 20px 25px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.7s;
+
+}
+.button-2:hover{
+    background-color: white;
+    color: #00D8FF;
+    border: solid #00D8FF;
+    transition: 0.7s;
 }

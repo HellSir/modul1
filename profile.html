@@ -6,43 +6,46 @@
     <link rel="stylesheet" href="css/profile.css">
 </head>
 <body>
-<header>
-    <h3>Личный кабинет</h3>
-    <nav class="nav">
-        <div class="nav1">
-        <div class="div">Имя:</div>
-            <hr>
-        <div class="div">Фамилия:</div>
-            <hr>
-        <div class="div">Кол-во полётов:</div>
-        </div>
-        <a class="button" href="#">Выйти</a>
-    </nav>
-</header>
-
-<section class="nothing">
-</section>
-<section class="required">
-    <div class="head">
-        <h3>Бронирование билета</h3>
-        <div  class="input">
-            <div>
-                <ul>
-                    <li><label>Код бронирования<input type="text"></label></li>
-                    <li><label>Дата вылета<input type="date"></label></li>
-                    <li><label>Время вылета<input type="date"></label></li>
-                </ul>
+<div>
+    <link rel="stylesheet" href="/css/profile.css">
+    <header>
+        <h3>Личный кабинет</h3>
+        <nav class="nav">
+            <div class="nav1">
+                <div class="div">Имя: {{ firstName }}</div>
+                <hr>
+                <div class="div">Фамилия: {{ lastName }}</div>
+                <hr>
+                <div class="div">Кол-во полётов:</div>
             </div>
+            <a class="button" @click="exit">Выйти</a>
+        </nav>
+    </header>
 
-            <div>
-                <ul>
-                    <li><label>Время прилёта<input type="time"></label></li>
-                    <li><label>Название аэропорта вылета<input type="text"></label></li>
-                    <li><label>Название аэрапорта назначения<input type="text"></label></li>
-                </ul>
+    <section class="nothing">
+    </section>
+    <section class="required">
+        <div class="head">
+            <h3>Бронирование билета</h3>
+            <div  class="input">
+                <div>
+                    <ul>
+                        <li><label>Код бронирования<input type="text"></label></li>
+                        <li><label>Дата вылета<input type="date"></label></li>
+                        <li><label>Время вылета<input type="date"></label></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul>
+                        <li><label>Время прилёта<input type="time"></label></li>
+                        <li><label>Название аэропорта вылета<input type="text"></label></li>
+                        <li><label>Название аэрапорта назначения<input type="text"></label></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>
 </body>
 </html>

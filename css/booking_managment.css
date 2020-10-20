@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-200px; /*Смещаем блок на половину всей ширины влево*/
+    margin-top:-100px; /*Смещаем блок на половину высоты вверх*/
+}
+header>h3{
+    padding-bottom: 10px;
+}
+.headerInput{
+    display: flex;
+}
+.nav{
+    background-color: #00D8FF;
+    display: flex;
+    color: white;
+}
+.sectionHeader{
+    color: white;
+    background-color: #00D8FF;
+    display: flex;
+}
+.lists{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+label,input{
+    display: block;
+}
+.sectionFooter{
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #00D8FF;
+    margin-left: 35%;
+}

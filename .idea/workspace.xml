@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffe59f07-ce18-4d0f-9253-f06cac75ff58" name="Default Changelist" comment="BBB">
+      <change afterPath="$PROJECT_DIR$/booking_management.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/booking_managment.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +53,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../routes" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Login_v5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -64,17 +66,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files\OpenServer\domains\modul1\css" />
+      <recent name="C:\Program Files\OpenServer\domains\modul1" />
+      <recent name="C:\Program Files\OpenServer\modul1\image" />
+      <recent name="C:\Program Files\OpenServer\modul1\promotion1" />
+      <recent name="C:\Program Files\OpenServer\modul1\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Program Files\OpenServer\domains\modul1\image\clouds" />
       <recent name="C:\Program Files\OpenServer\domains\modul1\image\promotion" />
       <recent name="C:\Program Files\OpenServer\domains\modul1\image" />
       <recent name="C:\Program Files\OpenServer\modul1\image" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Program Files\OpenServer\domains\modul1" />
-      <recent name="C:\Program Files\OpenServer\modul1\image" />
-      <recent name="C:\Program Files\OpenServer\modul1\promotion1" />
-      <recent name="C:\Program Files\OpenServer\modul1\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -102,6 +105,9 @@
       <workItem from="1602846698146" duration="2524000" />
       <workItem from="1602855478567" duration="3025000" />
       <workItem from="1603105025659" duration="377000" />
+      <workItem from="1603123096872" duration="36000" />
+      <workItem from="1603189344157" duration="9000" />
+      <workItem from="1603205546580" duration="4632000" />
     </task>
     <task id="LOCAL-00001" summary="BBB">
       <created>1602604620625</created>
@@ -131,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603105064171</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="BBB">
+      <created>1603123103249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603123103249</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,10 +179,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602067330701" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603105403736">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603207067219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603105403736" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603207067219" />
     <state x="838" y="418" key="Github.ShareDialog" timestamp="1602076727328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -182,10 +195,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602076320863" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603105069120">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603123104984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603105069120" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603123104984" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1602760195157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
